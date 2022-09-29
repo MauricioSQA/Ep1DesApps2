@@ -1,0 +1,2 @@
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.csproj.AssemblyReference.cache
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.csproj.CoreCompileInputs.cache
