@@ -1,4 +1,4 @@
-﻿using System;
+﻿  using System;
 using System.Collections.Generic;
 using System.Data.Entity.Core;
 using System.Linq;
@@ -24,7 +24,7 @@ namespace WCF_Ventas
 
                 //Hacemos la consulta con LINQ
                 var query = (from miFactura in MisVentas.Tb_Factura
-                             where miFactura.Cod_cli == strCodigo && miFactura.Fec_fac >= fecfin
+                             where miFactura.Cod_cli == strCodigo && miFactura.Fec_fac >= fecini && miFactura.Fec_fac <= fecfin
                              select miFactura
                              );
                 //Recorremos el resultado...
@@ -55,6 +55,7 @@ namespace WCF_Ventas
                         where miDetalle.Num_fac == resultado.Num_fac
                         select miDetalle.Can_ven * miDetalle.Pre_ven).Sum()
                         );
+                    //Agregamos la instancia a la lista...  
                     objListaFacturaDC.Add(objFacturaDC);
                 }
                 return objListaFacturaDC;
@@ -73,7 +74,7 @@ namespace WCF_Ventas
                 //Creamos una lista de facturas...
                 List<FacturaDC> objListaFacturaDC = new List<FacturaDC>();
 
-                //Hacemos la consulta con LINQ
+                //Hacemos la consulta con SP
                 var query = MisVentas.usp_ListarFacturasVendedorFechas(strCodigo, fecfini, fecfin);
 
                 //Recorremos el resultado   
@@ -84,7 +85,6 @@ namespace WCF_Ventas
                     objFacturaDC.Fec_fac = Convert.ToDateTime(resultado.fec_fac);
                     objFacturaDC.Fec_can = Convert.ToDateTime(resultado.fec_can);
                     objFacturaDC.Estado = resultado.estado;
-
                     objFacturaDC.Cod_cli = resultado.Cod_cli;
                     objFacturaDC.Raz_soc_cli = resultado.Raz_soc_cli;
                     objFacturaDC.Total = Convert.ToSingle(resultado.total);

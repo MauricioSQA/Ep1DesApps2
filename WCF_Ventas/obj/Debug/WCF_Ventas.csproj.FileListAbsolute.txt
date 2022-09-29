@@ -1,2 +1,12 @@
 C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.csproj.AssemblyReference.cache
 C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.csproj.CoreCompileInputs.cache
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\WCF_Ventas.dll.config
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\WCF_Ventas.dll
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\WCF_Ventas.pdb
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\EntityFramework.dll
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\EntityFramework.xml
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.csproj.CopyComplete
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.dll
+C:\Users\mfago_000\Desktop\CICLO4\DESARROLLO DE APLICACIONES 2 NRC 1361\Proyectos\DemoWCF_Entity\WCF_Ventas\obj\Debug\WCF_Ventas.pdb

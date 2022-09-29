@@ -33,6 +33,8 @@ namespace WCF_Ventas
                 objClienteDC.Cod_cli = objConsulta.Cod_cli;
                 objClienteDC.Raz_soc_cli = objConsulta.Raz_soc_cli;
                 objClienteDC.Dir_cli = objConsulta.Dir_cli;
+                objClienteDC.Tel_cli = objConsulta.Tel_cli;
+                objClienteDC.Contacto = objConsulta.Contacto;
                 objClienteDC.Ruc_cli = objConsulta.Ruc_cli;
                 objClienteDC.Departamento = objConsulta.Tb_Ubigeo.Departamento;
                 objClienteDC.Provincia = objConsulta.Tb_Ubigeo.Provincia;
@@ -43,9 +45,9 @@ namespace WCF_Ventas
                 objClienteDC.Deuda = CalcularDeudaCliente(objConsulta.Cod_cli);
                 objClienteDC.Cant_FacturasPendientes = Convert.ToInt16
                     (
-                    from miFactura in MisVentas.Tb_Factura
+                    (from miFactura in MisVentas.Tb_Factura
                     where miFactura.Cod_cli == objConsulta.Cod_cli && miFactura.Est_fac == 1
-                    select miFactura
+                    select miFactura).Count()
                     );
                 return objClienteDC;
             }
